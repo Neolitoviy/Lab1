@@ -10,8 +10,8 @@ public class LR1 {
      * Клас, що представляє числа Фібоначчі з порядковим номером та значенням.
      */
     public static class FibNum {
-        private int number;
-        private int value;
+        private final int number;
+        private final int value;
 
         /**
          * Конструктор для класу FibNum.
